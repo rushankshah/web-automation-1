@@ -7,5 +7,7 @@ const puppeteer = require('puppeteer');
     await page.goto('https://rushankshah.vercel.app/');
     await page.screenshot({path: 'example.png'});
     // await browser.waitForTarget()
+    
+    
     await browser.close();
   })();
